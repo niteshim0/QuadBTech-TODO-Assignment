@@ -17,7 +17,7 @@ function TodoItem({ todo }) {
   };
 
   const toggleCompleted = () => {
-    dispatch(toggleComplete({ id: todo.id }));
+    dispatch(toggleComplete({ id: todo.id })); // dispathces the action
   };
 
   return (
